@@ -12,3 +12,5 @@ RUN apk update \
 
 #Angular CLI
 RUN npm install -g @angular/cli
+
+WORKDIR /app
